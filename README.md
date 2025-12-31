@@ -363,8 +363,8 @@ This application is proprietary software developed for government use. Unauthori
 ## 👥 Support
 
 For technical support or issues:
-- Contact your system administrator
-- Email: support@evidentialapp.gov
+- Contact our system administrator
+- Email: admin@myntrixers.com
 - Internal ticketing system
 
 ---
