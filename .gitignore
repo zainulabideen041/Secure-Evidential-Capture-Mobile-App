@@ -1,39 +1,258 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
-node_modules/
-
-# Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
-
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+# ========================
+# Operating System Files
+# ========================
 
 # macOS
 .DS_Store
-*.pem
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
 
-# local env files
-.env*.local
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
 
-# typescript
+# Linux
+*~
+.directory
+
+# ========================
+# Node.js & Dependencies
+# ========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Package manager lock files (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ========================
+# Environment Variables
+# ========================
+
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# ========================
+# Expo & React Native
+# ========================
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# React Native
+.react-native/
+
+# Metro bundler
+.metro-health-check*
+
+# ========================
+# Build Outputs
+# ========================
+
+build/
+*.apk
+*.ipa
+*.app
+*.aab
+
+# EAS Build
+eas-build-*/
+
+# ========================
+# IDE & Editor Files
+# ========================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ========================
+# Logs
+# ========================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================
+# Testing & Coverage
+# ========================
+
+coverage/
+*.lcov
+.nyc_output/
+.jest/
+
+# ========================
+# Temporary Files
+# ========================
+
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# ========================
+# Database
+# ========================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# MongoDB
+data/
+
+# ========================
+# Backend Specific
+# ========================
+
+# Uploads directory (if storing files locally)
+BACKEND/uploads/
+BACKEND/public/uploads/
+
+# Vercel
+.vercel/
+
+# ========================
+# Frontend Specific
+# ========================
+
+# TypeScript
 *.tsbuildinfo
 
-app-example
+# ESLint cache
+.eslintcache
+
+# ========================
+# Mobile Development
+# ========================
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+local.properties
+*.iml
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild
+.cxx
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# ========================
+# Security & Sensitive Data
+# ========================
+
+# Private keys
+*.pem
+*.key
+*.p12
+*.keystore
+
+# Certificates
+*.cer
+*.crt
+
+# ========================
+# Cloudinary & External Services
+# ========================
+
+# Cloudinary cache
+.cloudinary/
+
+# ========================
+# Miscellaneous
+# ========================
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation builds
+docs/_build/
+
+# Storybook
+storybook-static/
